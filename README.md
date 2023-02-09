@@ -4,6 +4,13 @@
 ## 安装依赖
 `pip3 install pyrogram tgcrypto uvloop apscheduler`
 
+Windows 平台不支持 uvloop ，自行修改源码也许能运行
+
+## 运行
+`python3 clone.py`
+
+后台运行需要使用 screen 或 nohup 等
+
 ## 设置变量
 `api_id` `api_hash` 在 https://my.telegram.org/ 获取
 
